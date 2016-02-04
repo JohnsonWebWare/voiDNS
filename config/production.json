@@ -1,5 +1,6 @@
 {
-	"hostsFile": "/etc/voidns/hostconf",
+	"ip": "192.168.0.250",
+	"hostsFile": "/etc/voidns/gravity.listf",
 	"sources": [
 		"http://someonewhocares.org/hosts/hosts",
 		"http://winhelp2002.mvps.org/hosts.txt",
