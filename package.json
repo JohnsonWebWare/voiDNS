@@ -1,0 +1,28 @@
+{
+  "name": "void-dns",
+  "version": "1.0.0",
+  "description": "voidDNS - Clean and Safe DNS records inspired by the PI-Hole",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnsonWebWare/voiDNS.git"
+  },
+  "author": "Alexander Johnson <alex@johnsonwebware.com> (http://johnsonwebware.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnsonWebWare/voiDNS/issues"
+  },
+  "homepage": "https://github.com/JohnsonWebWare/voiDNS#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}
