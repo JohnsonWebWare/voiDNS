@@ -2,7 +2,7 @@
 
 global.config = require('./config/production.json');
 
-var getHosts = requir('./lib/git-hosts');
+var getHosts = require('./lib/git-hosts');
 var updateHosts = require('./lib/update-hosts');
 
 updateHosts(global.config.hostsFile, global.config.ip, getHosts(global.config.sources, (err) => {
